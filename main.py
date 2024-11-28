@@ -31,7 +31,7 @@ def on_connect(client, userdata, flags, rc):
 
 def connect_to_mqtt():
     try:
-        client.username_pw_set(username="Gusta1", password="123456Ig")
+        client.username_pw_set(username="", password="")
         client.tls_set()
         client.connect(broker_address, broker_port, 60)
         client.loop_start()
