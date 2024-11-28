@@ -1,9 +1,9 @@
 // Credenciais do MQTT
-const username = "Gusta2";
-const password = "123456Ig";
+const username = "";
+const password = "";
 
 // Conexão com o broker MQTT via WebSocket
-const brokerUrl = "wss://0d9369641bcd45389a5728d2f13ccaa0.s1.eu.hivemq.cloud:8884/mqtt"; // Broker MQTT público com WebSocket
+const brokerUrl = ""; // Broker MQTT público com WebSocket
 const client = mqtt.connect(brokerUrl, {
     username: username,
     password: password
