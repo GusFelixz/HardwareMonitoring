@@ -3,8 +3,8 @@ from tkinter import messagebox
 import paho.mqtt.client as mqtt_client
 import psutil
 
-broker_address = "0d9369641bcd45389a5728d2f13ccaa0.s1.eu.hivemq.cloud"
-broker_port = 8883
+broker_address = ""
+broker_port = 
 
 client = mqtt_client.Client()
 
