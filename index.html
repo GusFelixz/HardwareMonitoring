@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vizualizador MQTT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script> <!-- Biblioteca MQTT -->
+</head>
+<body>
+    <h1>Projeto monitoramento de maquina MQTT </h1>
+    <div class="controls">
+        <label for="topic">Topico:</label>
+        <input type="text" id="topic" placeholder="Digite aqui" />
+        <button id="subscribeButton">Inscrever-se</button>
+    </div>
+    <div id="messages">
+        <h2>Mensagens:</h2>
+        <div id="messageList"></div>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
